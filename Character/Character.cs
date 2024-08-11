@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using Uaine.Objects.Primitives;
+using Uaine.Objects.Primitives.ID;
 using Uaine.Users;
 
 namespace Uaine.Game.Character
@@ -24,7 +25,7 @@ namespace Uaine.Game.Character
             this.Stats = stats;
             this.playerMoney = plmoney;
         }
-        public Character(string name, string pswd, GroupID groupid, int acntrank, Uaine.UID.UniqueID id,
+        public Character(string name, string pswd, PolyID32 groupid, int acntrank, Uaine.UID.UniqueID id,
             CharacterStats stats, Treasury plmoney) :
             base(name, pswd, groupid, acntrank, id)
         {
