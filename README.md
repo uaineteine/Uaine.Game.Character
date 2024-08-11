@@ -10,7 +10,7 @@ Add source project to solution with reference to get started or install via [NuG
 
 ![chardiagram](https://raw.githubusercontent.com/uaineteine/Uaine.Game.Character/release/images/characters.png)
 
-## Version 2.0
+## Version 2.0.1.1
 
 See the [changelog](changelog.txt) for details.
 
